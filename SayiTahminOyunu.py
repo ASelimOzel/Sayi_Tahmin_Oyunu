@@ -3,7 +3,7 @@ import random
 oyun_durumu = True
 
 while oyun_durumu:
-    hak = 7
+    hak = 5
     rastgele_sayi = random.randint(1, 100)
     print(""" ********* TAHMİN OYUNU *********** """)
     tahmin = int(input("Tahmininizi giriniz: "))
